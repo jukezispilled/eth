@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('EccWGNJtdCGccBKkgi2vaPjvdp5E5w8EVBMoQy63pump');
+    navigator.clipboard.writeText('soon...');
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -59,7 +59,7 @@ function App() {
     <div
       className="relative h-screen w-screen overflow-clip"
       style={{
-        backgroundImage: `url('/bg.png')`,
+        backgroundImage: `url('/b.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         margin: 0,
@@ -75,24 +75,24 @@ function App() {
             {copied ? 'Copied!' : <CopyIcon />}
           </button>
           <div className='text-xs md:text-sm overflow-x-auto whitespace-nowrap font-custom'>
-          EccWGNJtdCGccBKkgi2vaPjvdp5E5w8EVBMoQy63pump
+            soon...
           </div>
         </div>
       </div>
 
       <div className="absolute md:top-5 bottom-5 right-5 flex flex-col items-center z-10">
         <div className="flex flex-row">
-          <a href="https://x.com/dogwithspirit" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+          <a href="https://x.com/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={Xlogo} alt="Xlogo" className="w-12 h-12 rounded-lg" />
           </a>
-          <a href="https://www.t.me/SPIRITONSOLANA" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+          <a href="https://www.t.me/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={TG} alt="Tg logo" className="w-12 h-12" />
           </a>
         </div>
       </div>
 
       <div className='absolute bottom-8 left-5 text-slate-700 font-custom'>
-        click dog for fortune
+        click turle horse for fortune
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <motion.img
@@ -114,8 +114,8 @@ function App() {
       </div>
       <div className="absolute inset-0 flex items-center justify-center -translate-x-2 md:-translate-x-4">
         <motion.img
-          src="/spirit.png"
-          alt="Spirit"
+          src="/eth.png"
+          alt="ETH"
           className="cursor-pointer max-w-[60%] md:max-w-[45%]"
           animate={{
             y: [0, -20, 0], // Hover up and down
@@ -136,7 +136,7 @@ function App() {
               onClick={handleCloseModal} 
               className="bg-gradient-to-r from-sky-400 via-blue-700 to-indigo-400 text-white py-2 px-4 rounded-full"
             >
-              Bless You O Higher One
+              Amen
             </button>
           </div>
         </div>
