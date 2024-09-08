@@ -82,7 +82,7 @@ function App() {
 
       <div className="absolute md:top-5 bottom-5 right-5 flex flex-col items-center z-10">
         <div className="flex flex-row">
-          <a href="https://x.com/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+          <a href="https://x.com/solanaethcoin" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={Xlogo} alt="Xlogo" className="w-12 h-12 rounded-lg" />
           </a>
           <a href="https://t.me/ETHportalsolana" className="p-2 hover:scale-110 transition ease-in-out duration-200">
