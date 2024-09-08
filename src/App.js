@@ -85,14 +85,14 @@ function App() {
           <a href="https://x.com/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={Xlogo} alt="Xlogo" className="w-12 h-12 rounded-lg" />
           </a>
-          <a href="https://www.t.me/" className="p-2 hover:scale-110 transition ease-in-out duration-200">
+          <a href="https://t.me/ETHportalsolana" className="p-2 hover:scale-110 transition ease-in-out duration-200">
             <img src={TG} alt="Tg logo" className="w-12 h-12" />
           </a>
         </div>
       </div>
 
       <div className='absolute bottom-8 left-5 text-slate-700 font-custom'>
-        click turle horse for fortune
+        click turtle horse for fortune
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <motion.img
